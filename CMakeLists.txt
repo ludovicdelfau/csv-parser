@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.9)
-project(csv)
+project(csv LANGUAGES CXX)
 
 if(CSV_CXX_STANDARD)
 	set(CMAKE_CXX_STANDARD ${CSV_CXX_STANDARD})
